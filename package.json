@@ -1,7 +1,7 @@
 {
-	"name": "raiffeisenjs",
+	"name": "@h7kz/raiffeisen-premium-js",
 	"version": "0.0.1",
-	"description": "Raiffeisen bank API wrapper for Node.js",
+	"description": "A Node.js wrapper for the Raiffeisen Bank Premium API",
 	"main": "./dist/index.js",
 	"module": "./dist/index.mjs",
 	"types": "./dist/index.d.ts",

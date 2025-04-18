@@ -41,7 +41,7 @@ export function isRaiffeisenErrorResponse(response: any): response is Raiffeisen
 	return response && typeof response.statusCode === 'number' && typeof response.statusMessage === 'string';
 }
 
-class RaiffeisenAPI {
+class RaiffeisenPremiumAPI {
 	private httpsAgent: https.Agent;
 	private headers: Record<string, string>;
 	private hostname: string;
@@ -407,7 +407,7 @@ class RaiffeisenAPI {
 	}
 }
 
-export default RaiffeisenAPI;
+export default RaiffeisenPremiumAPI;
 export * from './resources/getAccountBalance';
 export * from './resources/getTransactionList';
 export * from './resources/uploadPayments';
